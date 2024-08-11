@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1723182674032,
+      "tag": "0000_light_electro",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1723274697123,
+      "tag": "0001_flippant_sersi",
+      "breakpoints": true
+    }
+  ]
+}
