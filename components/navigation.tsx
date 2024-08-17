@@ -76,7 +76,7 @@ const Navigation = () => {
       {routes.map((route)=> (
         <NavButton
           key={route.href}
-          href={route.label}
+          href={route.href}
           label={route.label}
           isActive={currentPath === route.href}
         />
