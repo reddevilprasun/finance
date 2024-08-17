@@ -19,9 +19,11 @@ import { columns } from "./columns";
 
 const AccountsPage = () => {
   const newAccount = useNewAccount();
+
   const accountsQuery = useGetAccounts();
-  const deleteAccounts = useBulkDeleteAccount();
   const accounts = accountsQuery.data || [];
+  
+  const deleteAccounts = useBulkDeleteAccount();
 
   const isDisabled =
     accountsQuery.isLoading ||
