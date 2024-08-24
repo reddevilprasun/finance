@@ -15,6 +15,13 @@
       "when": 1723274697123,
       "tag": "0001_flippant_sersi",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1724428075318,
+      "tag": "0002_wild_hellcat",
+      "breakpoints": true
     }
   ]
 }
