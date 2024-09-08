@@ -61,7 +61,7 @@ const CategoriesPage = () => {
         <CardContent>
           <DataTable
             disabled={isDisabled}
-            filterKey="email"
+            filterKey="name"
             onDelete={(row) => {
               const ids = row.map((r) => r.original.id);
               deleteCategories.mutate({ ids });
